@@ -14,7 +14,8 @@ provider "aws" {
 
 provider "aws" {
   profile = "default"
-  region = "ap-east-1"  
+  region = "ap-east-1"
+  alialias = "aws-ap-east-1"  
 }
 
 resource "aws_instance" "ec2-start" {
