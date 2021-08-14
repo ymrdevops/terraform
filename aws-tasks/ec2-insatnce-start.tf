@@ -13,8 +13,9 @@ provider "aws" {
 }
 
 provider "aws" {
+  alias   = "apeast1"
   profile = "default"
   region  = "ap-east-1"
-  alias   = "apeast1"
+  
 }
 
