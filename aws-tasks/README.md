@@ -1,0 +1,1 @@
+# Starting two ec2 insatnces on ap-south-1 region with the tags Learning-0 & Learning-1
